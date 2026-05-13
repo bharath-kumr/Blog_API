@@ -1,0 +1,86 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    min-height: 100vh;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Buttons */
+button {
+    cursor: pointer;
+    font-family: inherit;
+}
+
+/* Input & Textarea Focus */
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #4CAF50 !important;
+    box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.2);
+}
+
+/* Page wrapper */
+.page-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Card */
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Error text */
+.error-text {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Success text */
+.success-text {
+    color: #4CAF50;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Empty state */
+.empty-state {
+    text-align: center;
+    color: #999;
+    font-size: 18px;
+    margin-top: 60px;
+}
